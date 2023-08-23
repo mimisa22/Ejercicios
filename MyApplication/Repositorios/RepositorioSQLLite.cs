@@ -12,6 +12,11 @@ namespace MyApplication.Repositorios
 {
     internal class RepositorioSQLLite : IRepositorio
     {
+        public Cliente Consultar<T>(T entidad) where T : Entity
+        {
+            throw new NotImplementedException();
+        }
+
         public void Guardar<T>(T entidad) where T : Entity
         {
             var optionsBuilder = new DbContextOptionsBuilder();

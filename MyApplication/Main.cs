@@ -19,7 +19,7 @@ namespace MyApplication
             InitializeComponent();
 
 
-            Configuracion.Instancia(DBOptions.Txt);
+            Configuracion.Instancia(DBOptions.SQLServer);
         }
 
         private void button2_Click(object sender, EventArgs e)

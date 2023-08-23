@@ -120,7 +120,7 @@
             txtApellido.Location = new Point(218, 123);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(213, 27);
-            txtApellido.TabIndex = 10;
+            txtApellido.TabIndex = 3;
             // 
             // label5
             // 
@@ -130,7 +130,6 @@
             label5.Size = new Size(66, 20);
             label5.TabIndex = 9;
             label5.Text = "Apellido";
-            
             // 
             // Form1
             // 

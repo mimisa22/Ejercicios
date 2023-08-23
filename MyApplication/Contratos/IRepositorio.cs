@@ -11,6 +11,6 @@ namespace MyApplication.Contratos
     {
         void Guardar<T>(T entidad) where T: Entity;
 
-
+        Cliente Consultar<T>(T entidad) where T : Entity;
     }
 }

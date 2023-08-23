@@ -10,6 +10,11 @@ namespace MyApplication.Repositorios
 {
     internal class RepositorioTxt : IRepositorio
     {
+        public Cliente Consultar<T>(T entidad) where T : Entity
+        {
+            throw new NotImplementedException();
+        }
+
         public void Guardar<TEntity>(TEntity entity) where TEntity : Entity
         {
             var type = entity.GetType();
