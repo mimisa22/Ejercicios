@@ -1,4 +1,5 @@
 ﻿using MyApplication.Contexto;
+using MyApplication.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,7 @@ namespace MyApplication
             InitializeComponent();
 
 
-            Configuracion.Instancia(DBOptions.SQLServer);
+            //Configuracion.Instancia(DBOptions.SQLServer);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -33,5 +34,7 @@ namespace MyApplication
             var form = new Form1();
             form.Show();    
         }
+
+       
     }
 }

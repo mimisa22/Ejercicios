@@ -33,9 +33,9 @@ namespace MyApplication
                    txtNombre.Text, txtApellido.Text, txtTelefono.Text,
                    txtCedula.Text, int.Parse(txtEdad.Text));
 
-            RepositorioFabrik
-                .CrearRepositorio(dbOptions)
-                .Guardar(doctor);
+            //RepositorioFabrik
+            //    .CrearRepositorio(dbOptions)
+            //    .Guardar(doctor);
 
 
 
