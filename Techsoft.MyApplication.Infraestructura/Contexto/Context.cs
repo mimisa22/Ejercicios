@@ -14,14 +14,14 @@ namespace MyApplication.Contexto
 
         //public Context()
         //{
-            
+
         //}
 
-        //protected override void OnConfiguring( DbContextOptionsBuilder optionsBuilder)
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    optionsBuilder.UseSqlServer("server=.;Initial Catalog=MyApplication;Integrated Security=True; Encrypt=false");
         //}
 
-       
+
     }
 }

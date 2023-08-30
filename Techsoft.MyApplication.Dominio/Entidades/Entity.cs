@@ -11,10 +11,12 @@ namespace MyApplication.Entidades
     public class Entity
     {
         public DateTime FechaCreacion { get; set; }
+        public bool Status { get; set; }
 
         public Entity()
         {
             FechaCreacion = DateTime.Now;
+            Status = true;
         }
     }
 }

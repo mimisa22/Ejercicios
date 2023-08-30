@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyApplication.Guards;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace MyApplication.Entidades
         public Doctor(string nombre, string apellido, string telefono, string cedula, int edad): base(nombre, apellido, edad, telefono)
         {
             DoctorId = Guid.NewGuid();
-            Cedula = cedula;
+            Cedula = Guard.Length(cedula, nameof(cedula), 10, 20); 
         }
 
         public override string ToString()
